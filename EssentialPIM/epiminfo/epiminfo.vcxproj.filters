@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\ibpp_core">
+      <UniqueIdentifier>{2770436d-4e7d-4e3b-b173-7f2222903b5d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\ibpp_core">
+      <UniqueIdentifier>{d64b125a-8231-4161-94c1-1ab641d093c5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="epiminfo.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="epiminfoDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="core\ibpp.h">
+      <Filter>头文件\ibpp_core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\_ibpp.h">
+      <Filter>头文件\ibpp_core</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="epiminfo.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="epiminfoDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="core\database.cpp">
+      <Filter>源文件\ibpp_core</Filter>
+    </ClCompile>
+    <ClCompile Include="core\statement.cpp">
+      <Filter>源文件\ibpp_core</Filter>
+    </ClCompile>
+    <ClCompile Include="core\_ibpp.cpp">
+      <Filter>源文件\ibpp_core</Filter>
+    </ClCompile>
+    <ClCompile Include="core\transaction.cpp">
+      <Filter>源文件\ibpp_core</Filter>
+    </ClCompile>
+    <ClCompile Include="core\events.cpp">
+      <Filter>源文件\ibpp_core</Filter>
+    </ClCompile>
+    <ClCompile Include="core\_dpb.cpp">
+      <Filter>源文件\ibpp_core</Filter>
+    </ClCompile>
+    <ClCompile Include="core\_ibs.cpp">
+      <Filter>源文件\ibpp_core</Filter>
+    </ClCompile>
+    <ClCompile Include="core\_rb.cpp">
+      <Filter>源文件\ibpp_core</Filter>
+    </ClCompile>
+    <ClCompile Include="core\_spb.cpp">
+      <Filter>源文件\ibpp_core</Filter>
+    </ClCompile>
+    <ClCompile Include="core\_tpb.cpp">
+      <Filter>源文件\ibpp_core</Filter>
+    </ClCompile>
+    <ClCompile Include="core\array.cpp">
+      <Filter>源文件\ibpp_core</Filter>
+    </ClCompile>
+    <ClCompile Include="core\blob.cpp">
+      <Filter>源文件\ibpp_core</Filter>
+    </ClCompile>
+    <ClCompile Include="core\date.cpp">
+      <Filter>源文件\ibpp_core</Filter>
+    </ClCompile>
+    <ClCompile Include="core\dbkey.cpp">
+      <Filter>源文件\ibpp_core</Filter>
+    </ClCompile>
+    <ClCompile Include="core\exception.cpp">
+      <Filter>源文件\ibpp_core</Filter>
+    </ClCompile>
+    <ClCompile Include="core\row.cpp">
+      <Filter>源文件\ibpp_core</Filter>
+    </ClCompile>
+    <ClCompile Include="core\service.cpp">
+      <Filter>源文件\ibpp_core</Filter>
+    </ClCompile>
+    <ClCompile Include="core\time.cpp">
+      <Filter>源文件\ibpp_core</Filter>
+    </ClCompile>
+    <ClCompile Include="core\user.cpp">
+      <Filter>源文件\ibpp_core</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="epiminfo.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\epiminfo.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\epiminfo.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
