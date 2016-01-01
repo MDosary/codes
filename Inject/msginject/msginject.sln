@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "msginject", "msginject\msginject.vcxproj", "{1B79B010-5875-440D-B655-305E758B04D1}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "d3d9hook", "..\d3d9hook\d3d9hook\d3d9hook.vcxproj", "{052CDC36-C62E-4B7A-8832-FB8420EAFC6E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1B79B010-5875-440D-B655-305E758B04D1}.Debug|Win32.ActiveCfg = Debug|Win32
+		{1B79B010-5875-440D-B655-305E758B04D1}.Debug|Win32.Build.0 = Debug|Win32
+		{1B79B010-5875-440D-B655-305E758B04D1}.Release|Win32.ActiveCfg = Release|Win32
+		{1B79B010-5875-440D-B655-305E758B04D1}.Release|Win32.Build.0 = Release|Win32
+		{052CDC36-C62E-4B7A-8832-FB8420EAFC6E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{052CDC36-C62E-4B7A-8832-FB8420EAFC6E}.Debug|Win32.Build.0 = Debug|Win32
+		{052CDC36-C62E-4B7A-8832-FB8420EAFC6E}.Release|Win32.ActiveCfg = Release|Win32
+		{052CDC36-C62E-4B7A-8832-FB8420EAFC6E}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
